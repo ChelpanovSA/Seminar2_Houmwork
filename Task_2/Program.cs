@@ -8,9 +8,7 @@ int num =int.Parse(Console.ReadLine()!);
 int numA = num / 100;
 
 if (numA <= 1) Console.WriteLine($"третьей цифры числа {num} нет");
-else 
-{
-   numA =  num / 100 %10;
-}
+else numA =  numA % 10;
+
 
 Console.WriteLine($"третья цифра, заданного числа -> {numA}");
